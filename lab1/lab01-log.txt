@@ -1,0 +1,112 @@
+    1  python3 --version
+    2  sudo<wsl>
+    3  wsl --status
+    4  wsl
+    5  wsl --status
+    6  pwd
+    7  ls
+    8  ls -a
+    9  ls -l
+   10  ls
+   11  coding-cafe/
+   12  mkdir coding-cafe
+   13  mkdir week01
+   14  mkdir week02
+   15  mkdir notes.md
+   16  mkdir README.md
+   17  cd ~
+   18  mkdir coding-cafe
+   19  cd coding-cafe
+   20  mkdir week01
+   21  mkdir week02
+   22  cd week02
+   23  touch notes.md
+   24  cd ..
+   25  touch README.md
+   26  ls -R
+   27  ls coding-cafe/week02
+   28  cd ~
+   29  ls coding-cafe/week02
+   30  open coding-cafe/week02/notes.md
+   31  nano notes.md
+   32  pwd
+   33  ls
+   34  ls -a
+   35  ls -l
+   36  cd ~
+   37  mkdir -p coding-cafe/week01 coding-cafe/week02
+   38  touch coding-cafe/README.md
+   39  touch coding-cafe/week02/notes.md
+   40  ls coding-cafe/week02
+   41  cd ~/coding-cafe
+   42  pwd
+   43  ls
+   44  ls -a
+   45  ls -l
+   46  cp README.md README-backup.md
+   47  mv README-backup.md week01/
+   48  cd week01
+   49  mv README-backup.md old-readme.md
+   50  ls
+   51  rm old-readme.md
+   52  cd~/coding-cafe
+   53  echo $PATH
+   54  which python3
+   55  which pip
+   56  which ls
+   57  pyton3
+   58  python3
+   59  pwd
+   60  ls
+   61  ls -a
+   62  ls -l
+   63  mkdir coding cafe
+   64  cd coding cafe
+   65  ls
+   66  cd cafe coding
+   67  ls
+   68  mkdir coding-cafe
+   69  cd coding-cafe
+   70  mkdir week01
+   71  mkdir week02
+   72  touch README.md
+   73  cd week02
+   74  touch notes.md
+   75  cd ~
+   76  cd coding-cafe
+   77  cp README.md README-backup.md
+   78  mv README-backup.md week01/
+   79  cd week01
+   80  ls
+   81  mv README-backup.md old readme.md
+   82  mv README-backup.md old-readme.md
+   83  ls
+   84  rm old-readme.md
+   85  ls
+   86  cd ~
+   87  ls
+   88  cd coding-cafe
+   89  echo $PATH
+   90  which python3
+   91  which pip
+   92  which ls
+   93  which pyton3
+   94  which pytn3
+   95  cd ~/coding-cafe
+   96  cd~/coding-cafe python3 -m venv .venv
+   97  python3 -m venv .venv
+   98  cd ~/coding-cafe
+   99  python3 -m venv .venv
+  100  ls
+  101  ls -a
+  102  source .venv/bin/activate
+  103  which python3
+  104  pip list
+  105  pip install requests
+  106  pip list
+  107  deactivate which python3
+  108  man ls
+  109  man man
+  110  history
+  111  python3
+  112  history > week02/lab01-log.txt
